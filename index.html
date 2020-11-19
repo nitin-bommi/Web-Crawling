@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #cover {
+            background: #222;
+            background-size: cover;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            position: relative;
+            background-image: url('weather.jpg');
+            background-repeat: no-repeat;
+        }
+        #cover-caption {
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: lighter;
+        }
+        .p-4 {
+            content: '';
+            height: 100%;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 10px;
+        }
+        .page-header {
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section id="cover" class="min-vh-100">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="page-header" style='color: white'>
+                    <h1 class="py-2 text-truncate">Welcome to Weather App 🌈</h1>
+                </div>
+                <div class="row text-white">
+                    <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+                        <div class="px-2">
+                                <button type="submit" class="btn btn-warning" name="login">Login</button>
+                        </div>
+                        <br>
+                        <div class="px-2">
+                            <button type="submit" class="btn btn-warning" name="register">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                if ($(this).text() == "Login") {
+                    window.location.href = "login.php";
+                } else {
+                    window.location.href = "register.php";
+                }
+            });
+            $("h1").mouseenter(function() {
+                $(this).animate({fontSize: '4em'}, 400);
+            })
+            $("h1").mouseleave(function() {
+                $(this).animate({fontSize: '3em'}, 200);
+            })
+        });
+    </script>
+</body>
+</html>
