@@ -123,11 +123,16 @@
 A sample walkthrough can be found [here.](https://drive.google.com/file/d/1icZe2KHUYj5BK9tF0ZJ7kNJQct-0N_Gj/view?usp=sharing) (*can be viewed only with uohyd account*)
 
 - __index.html__
+<img src="https://github.com/Nitin1901/Web-Crawling/blob/main/sample/index.PNG" width=1000px>
 
 - __login.php__
+<img src="https://github.com/Nitin1901/Web-Crawling/blob/main/sample/login.PNG" width=300px>
 
 - __register.php__
+<img src="https://github.com/Nitin1901/Web-Crawling/blob/main/sample/register.PNG" width=250px>
 
 - __user.php__
+<img src="https://github.com/Nitin1901/Web-Crawling/blob/main/sample/user.PNG" width=500px>
 
 - __admin.php__
+<img src="https://github.com/Nitin1901/Web-Crawling/blob/main/sample/admin.PNG" width=700px>
