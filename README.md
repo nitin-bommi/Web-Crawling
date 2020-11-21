@@ -36,6 +36,7 @@
  
 - [x] __Validating the HTML code__
   - Validated my `index.html` file. 
+  <img src="https://github.com/Nitin1901/Web-Crawling/blob/main/sample/validation.PNG" width=500px>
   
 - [x] __User registration, Authentication and Page/Form Validation features across the website__
   - The user has to register first before accessing the main data page. 
